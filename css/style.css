@@ -1,0 +1,84 @@
+* {
+  font-family: "Roboto", sans-serif;
+  font-size: 8px; }
+
+h1 {
+  font-size: 4rem;
+  font-weight: 400; }
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 100; }
+
+img {
+  width: 100%; }
+
+#intro,
+#heat-index,
+#barpass {
+  text-align: center; }
+
+#intro h1,
+#heat-index h2,
+#barpass h1,
+#barpass h2 {
+  max-width: 1024px;
+  margin: 0 auto; }
+
+#intro h1,
+#heat-index #logo,
+#heat-index h2,
+#barpass h1,
+#barpass h2 {
+  padding: 1rem; }
+
+#intro img {
+  vertical-align: -7px;
+  max-width: 66px; }
+
+#heat-index #logo {
+  margin-top: 2em; }
+
+#heat-index #logo {
+  width: 50%;
+  max-width: 380px; }
+
+#heat-index #dashboard {
+  max-width: 1024px;
+  margin-bottom: 2rem; }
+
+#barpass #iphone {
+  width: 50%;
+  max-width: 441px; }
+
+#physics canvas {
+  background-color: #212121; }
+
+#intro {
+  color: #8bc34a; }
+
+#heat-index {
+  color: white;
+  background-color: #689f38; }
+
+#intro h1,
+#heat-index h2 {
+  letter-spacing: 2.5px; }
+
+#heat-index h2 a {
+  font-size: 2.5rem;
+  color: white; }
+
+#barpass {
+  color: #41365c;
+  background-color: white; }
+
+#barpass h1 {
+  font-weight: 400; }
+
+@media (min-width: 768px) {
+  * {
+    font-size: 12px; } }
+@media (min-width: 1024px) {
+  * {
+    font-size: 16px; } }

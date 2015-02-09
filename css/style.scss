@@ -1,0 +1,133 @@
+// Mobile First
+
+$dark-grey: rgb(33,33,33);
+$primary-color: #689F38;
+$primary-light-color: #8BC34A;
+$accent-color: #41365C;
+$white: #ffffff;
+
+$Roboto: 'Roboto', sans-serif;
+
+// globals
+// ===================
+
+* {
+  font-family:$Roboto;
+  font-size: 8px;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 100;
+}
+
+img {
+  width: 100%;
+}
+
+// layout
+// ===================
+
+#intro ,
+#heat-index,
+#barpass {
+  text-align: center;
+}
+
+#intro h1,
+#heat-index h2,
+#barpass h1,
+#barpass h2, {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+#intro h1,
+#heat-index #logo,
+#heat-index h2,
+#barpass h1,
+#barpass h2 {
+  padding: 1rem;
+}
+
+// akqa logo
+#intro img {
+  vertical-align: -7px;
+  max-width: 66px;
+}
+
+#heat-index #logo {
+  margin-top: 2em;
+}
+
+#heat-index #logo {
+  width: 50%;
+  max-width: 380px;
+}
+
+#heat-index #dashboard {
+  max-width: 1024px;
+  margin-bottom: 2rem;
+}
+
+#barpass #iphone {
+  width: 50%;
+  max-width: 441px;
+}
+
+// styles
+// ===================
+
+#physics canvas {
+  background-color: $dark-grey;
+}
+
+#intro {
+  color: $primary-light-color;
+}
+
+#heat-index {
+  color: $white;
+  background-color: $primary-color;
+}
+
+#intro h1,
+#heat-index h2 {
+  letter-spacing: 2.5px;
+}
+
+#heat-index h2 a {
+  font-size: 2.5rem;
+  color: $white;
+}
+
+#barpass {
+  color: $accent-color;
+  background-color: $white;
+}
+
+#barpass h1 {
+  font-weight: 400;
+}
+
+
+
+// MEDIA QUERIES
+// ========================
+
+@media (min-width: 768px) {
+  * {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 1024px) {
+  * {
+    font-size: 16px;
+  }
+}
